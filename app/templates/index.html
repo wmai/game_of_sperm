@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+</head>
+<body>
+    <canvas id="spermEnvironmentCanvas"></canvas>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/lodash.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/node_modules/paper/dist/paper-full.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/src/resize_canvas.js') }}"></script>
+    <script type="text/paperscript" src="{{ url_for('static', filename='js/src/index.js') }}" canvas="spermEnvironmentCanvas"></script>
+
+</body>
+</html>

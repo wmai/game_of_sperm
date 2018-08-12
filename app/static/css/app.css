@@ -1,0 +1,21 @@
+/*
+* @Author: wmai
+* @Date:   2017-08-03 15:33:07
+* @Last Modified by:   wmai
+* @Last Modified time: 2017-08-03 16:03:22
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+h1 {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
